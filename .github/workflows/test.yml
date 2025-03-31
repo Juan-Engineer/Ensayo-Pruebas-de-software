@@ -16,5 +16,5 @@ jobs:
           distribution: 'temurin'  # OpenJDK de Eclipse Temurin
           java-version: '23'  # Cambia esto según tu versión de Java
 
-      - name: Ejecutar pruebas con Maven
-        run: mvn test
+      - name: Ejecutar pruebas con Ant
+        run: ant test
