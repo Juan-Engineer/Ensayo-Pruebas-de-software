@@ -1,0 +1,20 @@
+name: Ejecutar pruebas en Java
+
+on: [push, pull_request]  # Se ejecuta en cada push o pull request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'  # OpenJDK de Eclipse Temurin
+          java-version: '23'  # Cambia esto según tu versión de Java
+
+      - name: Ejecutar pruebas con Maven
+        run: mvn test
