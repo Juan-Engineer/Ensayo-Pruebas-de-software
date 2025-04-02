@@ -1,0 +1,43 @@
+Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Trying the default build file: build.xml
+Buildfile: C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build.xml
+Detected Java version: 23 in: C:\Program Files\Java\jdk-23
+Detected OS: Windows 11
+parsing buildfile C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build.xml with URI = file:/C:/Users/Administrador/Documents/NetBeansProjects/ForoPruebas/build.xml
+Project base dir set to: C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas
+parsing buildfile jar:file:/C:/Program%20Files/apache-ant-1.10.15/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/Program%20Files/apache-ant-1.10.15/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Build sequence for target(s) `test' is [compile, compile-tests, test]
+Complete build sequence is [compile, compile-tests, test, test-single, clean, jar, test-single-method, ]
+
+compile:
+    [mkdir] Skipping C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes because it already exists.
+    [javac] GestorTareas.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes\GestorTareas.class is up to date.
+    [javac] Main.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes\Main.class is up to date.
+    [javac] Tarea.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes\Tarea.class is up to date.
+    [javac] TaskManagerGUI.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes\TaskManagerGUI.class is up to date.
+    [javac] Usuario.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes\Usuario.class is up to date.
+
+compile-tests:
+    [mkdir] Skipping C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\test\classes because it already exists.
+    [javac] IntegrationTest.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\test\classes\IntegrationTest.class is up to date.
+    [javac] PerformanceTest.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\test\classes\PerformanceTest.class is up to date.
+    [javac] UsuarioTest.java omitted as C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\test\classes\UsuarioTest.class is up to date.
+
+test:
+    [mkdir] Skipping C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\test-reports because it already exists.
+     [java] Executing 'C:\Program Files\Java\jdk-23\bin\java.exe' with arguments:
+     [java] '-classpath'
+     [java] 'C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\classes;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\build\test\classes;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\apiguardian-api-1.1.2.jar;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\junit-jupiter-api-5.10.3.jar;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\junit-jupiter-engine-5.10.3.jar;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\junit-platform-commons-1.10.3.jar;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\junit-platform-launcher-1.10.3.jar;C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\lib\opentest4j-1.2.0.jar'
+     [java] 'org.junit.platform.console.ConsoleLauncher'
+     [java] '--scan-classpath'
+     [java] '--details=tree'
+     [java] '--reports-dir=C:\Users\Administrador\Documents\NetBeansProjects\ForoPruebas\test-reports'
+     [java] 
+     [java] The ' characters around the executable and arguments are
+     [java] not part of the command.
+     [java] Error: Could not find or load main class org.junit.platform.console.ConsoleLauncher
+     [java] Caused by: java.lang.ClassNotFoundException: org.junit.platform.console.ConsoleLauncher
+     [java] Java Result: 1
+
+BUILD SUCCESSFUL
+Total time: 1 second
